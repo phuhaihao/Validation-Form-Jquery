@@ -1,0 +1,30 @@
+form{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.form-content input{
+    width: 500px;
+    border-radius: 5px;
+}
+
+.form-content label{
+    display: flex;
+    justify-content: left;
+}
+
+#btn{
+    border-color: aliceblue;
+    border-radius: 5px;
+}
